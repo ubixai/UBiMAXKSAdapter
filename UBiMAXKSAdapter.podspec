@@ -1,7 +1,7 @@
 9
 Pod::Spec.new do |s|
   s.name             = 'UBiMAXKSAdapter'
-  s.version          = '3.3.72.3'
+  s.version          = '3.3.72.4'
   s.summary          = 'UBiX聚合Sass SDK KS Adapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
     'OTHER_LINK_FLAG' => '$(inherited) -ObjC' }
   
- s.dependency 'KSAdSDK', '3.3.69.3'
+ s.dependency 'KSAdSDK', '3.3.72'
  s.dependency 'UBiMAXAdSDK' 
 
 end
