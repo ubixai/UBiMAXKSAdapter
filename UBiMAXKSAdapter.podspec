@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UBiMAXKSAdapter'
-  s.version          = '5.7.20.1.0'
+  s.version          = '5.9.10.1.0'
   s.summary          = 'UBiX聚合Sass SDK KS Adapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'UBiMAXKSAdapter.xcframework'
   s.pod_target_xcconfig = {'OTHER_LINK_FLAG' => '$(inherited) -ObjC' }
 
-  s.dependency 'KSAdSDK', '5.7.20.1'
+  s.dependency 'KSAdSDK', '5.9.10.1'
  s.dependency 'UBiMAXAdSDK' 
 
 end
